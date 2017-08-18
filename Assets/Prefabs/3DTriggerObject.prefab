@@ -138,6 +138,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23610401268420804
 MeshRenderer:
@@ -169,6 +170,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23617395027183304
 MeshRenderer:
@@ -183,9 +185,9 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b2957be51c45df54c93f43fe0eb971dd, type: 2}
-  - {fileID: 2100000, guid: 5fce6edd11b29e646a8dd4617f477ebb, type: 2}
-  - {fileID: 2100000, guid: aebce1b5af3a35a4c84c75e64817dac5, type: 2}
+  - {fileID: 2100000, guid: 734036a5dc3c9064f8d86169da7cac83, type: 2}
+  - {fileID: 2100000, guid: 4e99b6b525a81a7459690c4795031b9d, type: 2}
+  - {fileID: 2100000, guid: 923aeeb0754b0124e9482a47bdaa2413, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202,6 +204,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33253406619976724
 MeshFilter:
@@ -286,7 +289,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000933207597382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f83fc4f138ee9474fb641d341db97b30, type: 3}
+  m_Script: {fileID: 11500000, guid: f5c2e477f0b07804eb3f08baabeedb10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainText: {fileID: 102674419907911702}
