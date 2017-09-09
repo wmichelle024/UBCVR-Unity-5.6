@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class loadScene3 : MonoBehaviour {
 
-	public string sceneToChange;
-
-	// Use this for initialization
-	void Start () {
+    public string sceneToChange;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -20,7 +19,6 @@ public class loadScene3 : MonoBehaviour {
 	public void OnMouseOver () {
 		if (Input.GetMouseButtonDown (0)) {
 			SceneManager.LoadScene(sceneToChange);
-
 		}
 
 	}
