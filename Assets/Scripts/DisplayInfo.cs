@@ -5,13 +5,13 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class DisplayInfo : MonoBehaviour {
 	public TextMesh mainText;
-	public TextMesh additionalText;
-	private bool textShowing;
+	public GameObject popup;
+	private bool infoShowing;
 
 	// Use this for initialization
 	void Start () {
 		// GetComponent<Renderer>().enabled = false;
-		hideAllText ();
+		hideAllInfo ();
 	}
 	
 	public void showMainText() {
@@ -19,31 +19,31 @@ public class DisplayInfo : MonoBehaviour {
 	}
 
 	public void hideMainText() {
-		if (textShowing == false)
+		if (infoShowing == false)
 			mainText.GetComponent<Renderer>().enabled = false;
 	}
 
-	public void showAllText() {
+	public void showAllInfo() {
 		mainText.GetComponent<Renderer>().enabled = true;
 		mainText.GetComponent<Collider>().enabled = true;
-		additionalText.GetComponent<Renderer>().enabled = true;
-		additionalText.GetComponent<Collider>().enabled = true;
-		textShowing = true;
+		popup.GetComponent<Renderer>().enabled = true;
+		popup.GetComponent<Collider>().enabled = true;
+		infoShowing = true;
 	}
 		
-	public void hideAllText() {
+	public void hideAllInfo() {
 		mainText.GetComponent<Renderer>().enabled = false;
 		mainText.GetComponent<Collider>().enabled = false;
-		additionalText.GetComponent<Renderer>().enabled = false;
-		additionalText.GetComponent<Collider>().enabled = false;
-		textShowing = false;
+		popup.GetComponent<Renderer>().enabled = false;
+		popup.GetComponent<Collider>().enabled = false;
+		infoShowing = false;
 	}
 
 	public void toggleTextDisplay() {
-		if (textShowing == false)
-			showAllText ();
+		if (infoShowing == false)
+			showAllInfo ();
 		else
-			hideAllText ();
+			hideAllInfo ();
 	}
 		
 	public void testDebugPrint() {
