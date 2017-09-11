@@ -11,3 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Orchard.unity
     guid: 204dab8844f874b4688b09d68143d6a8
+  - enabled: 1
+    path: Assets/Scenes/IKB.unity
+    guid: 81aba7ecc8ca9485e88a07d2e6eb65a3
+  - enabled: 1
+    path: Assets/Scenes/Nest.unity
+    guid: be803bcd553874b6490773c8f554efe7
+  - enabled: 1
+    path: Assets/Scenes/Rose Garden.unity
+    guid: d85eb7fe511254151bb9a4bbb3b0f30a
